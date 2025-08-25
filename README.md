@@ -3,6 +3,7 @@
 Written by Gregory Everett. Email: gae1g17@soton.ac.uk
 
 ## Table of contents
+- Paper Description
 - Ball Reception Prediction
 - Defensive Metrics
 - Potential Use Cases
