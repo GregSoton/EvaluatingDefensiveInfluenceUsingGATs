@@ -12,14 +12,8 @@ Evaluating individual contributions from team members is a critical challenge ac
   <img src="https://github.com/user-attachments/assets/bb35bae7-c76c-467a-86f7-18816c9060cd" alt="Reception_Prediction" width="600" />
 </p>
 
-<table>
-  <tr>
-    <td>
-      <img src="https://github.com/user-attachments/assets/b52efd80-d383-41fd-b6ac-a4e5664f9d99" alt="DI" width="420" />
-    </td>
-    <td>
-      <img src="https://github.com/user-attachments/assets/cd54f579-bfe9-4677-befe-a8fbd5a5afa7" alt="DP" width="420" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b52efd80-d383-41fd-b6ac-a4e5664f9d99" alt="DI" width="420" style="margin: 0 10px;" />
+  <img src="https://github.com/user-attachments/assets/cd54f579-bfe9-4677-befe-a8fbd5a5afa7" alt="DP" width="420" style="margin: 0 10px;" />
+</p>
 
