@@ -75,7 +75,12 @@ The architecture of the Graph Attention Network model is provided in the image b
 
 ## Code Workflow
 
-- Begin by converting the raw tracking data into dataframes for the ball, players and events. Code to complete these tasks is in convert_tracking.py. Store these dataframes 
+- Begin by converting the raw tracking data into dataframes for the ball, players and events. Code to complete these tasks is in convert_tracking.py. Store these dataframes in the Data folder.
+- Run the RunGATModel notebook to convert the data into graphs and train the GAT model.
+- Run the Visualisation notebook to see an interactive visualisation of the model and DI/DP metrics using the trained GAT model.
+- Run player_eval.py to run the model and store metrics on defenders across a game, as well as to test the attention mechanism of the model (as done in the paper experiments).
+- Run the Experiments notebook to go through the experiments and case studies that were given in the paper. These include player performance comparisons, analysis of the model and how it links to defensive actions, attacker influence and more.
+- Note: Some of the code includes pre-loaded models and scaled graphs. We recommend storing the generated graphs (and scaled graphs) from the RunGATModel notebook so they can be loaded back as we do in some of these notebooks.
 
 ## Data
 
