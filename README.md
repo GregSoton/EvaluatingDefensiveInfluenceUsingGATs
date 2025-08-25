@@ -71,6 +71,8 @@ The architecture of the Graph Attention Network model is provided in the image b
 
 ## Data
 
+The EPL Premier League Events and Tracking Data was supplied by Gradient Sports, who supported this work. For enquiries about this or similar datasets to test this work, please visit: https://www.gradientsports.com/.
+
 ## How to cite / contact
 If you use this work, please cite:
 
