@@ -27,3 +27,7 @@ The attention mechanism of the GAPP model is used to extract two new defensive m
 
 <p align="center"><em>Left — Defensive Influence (DI): the change in an attacker's reception probability when a specific defender's attention is masked. Positive DI indicates the defender reduces the attacker's chance to receive the ball.
 Right — Defensive Performance (DP): the DI values aggregated and weighted by each attacker's xT (attacking threat). DP quantifies a defender's overall off-ball positional value in reducing dangerous reception opportunities.</em></p>
+
+## Model Architecture
+
+<img width="12925" height="4340" alt="ModelDiagram (2)" src="https://github.com/user-attachments/assets/aadf973e-09ea-41cd-9e22-5ca0f8a32ccf" />
