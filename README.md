@@ -30,4 +30,14 @@ Right — Defensive Performance (DP): the DI values aggregated and weighted by e
 
 ## Model Architecture
 
+The architecture of the Graph Attention Network model is provided in the image below. More details on the model hyperparameters are given in the Appendix and the code.
+
 <img width="12925" height="4340" alt="ModelDiagram (2)" src="https://github.com/user-attachments/assets/aadf973e-09ea-41cd-9e22-5ca0f8a32ccf" />
+
+## Use Cases and Findings
+
+## Directory Structure
+
+## Code Workflow
+
+## Data
