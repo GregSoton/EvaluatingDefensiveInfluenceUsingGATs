@@ -8,7 +8,6 @@ Written by Gregory Everett. Email: gae1g17@soton.ac.uk
 - Defensive Metrics
 - Potential Use Cases
 - Model & Training
-- Directory structure
 - Code workflow
 - Data
 - How to cite / contact
@@ -31,13 +30,22 @@ This paper uses a Graph Attention Network model to predict the probability of ea
 
 The attention mechanism of the GAPP model is used to extract two new defensive metrics for evaluating off-ball defending in football. These metrics are called the Defender Influence and Defender Performance metrics. We provide example plots below of these metrics and explain each of these metrics in the plot description.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/b52efd80-d383-41fd-b6ac-a4e5664f9d99" alt="DI" width="500" style="margin: 0 10px;" />
-  <img src="https://github.com/user-attachments/assets/cd54f579-bfe9-4677-befe-a8fbd5a5afa7" alt="DP" width="500" style="margin: 0 10px;" />
-</p>
-
-<p align="center"><em>Left — Defensive Influence (DI): the change in an attacker's reception probability when a specific defender's attention is masked. Positive DI indicates the defender reduces the attacker's chance to receive the ball.
-Right — Defensive Performance (DP): the DI values aggregated and weighted by each attacker's xT (attacking threat). DP quantifies a defender's overall off-ball positional value in reducing dangerous reception opportunities.</em></p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/b52efd80-d383-41fd-b6ac-a4e5664f9d99" alt="DI" width="420" />
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/cd54f579-bfe9-4677-befe-a8fbd5a5afa7" alt="DP" width="420" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <em>Left — Defensive Influence (DI): the change in an attacker's reception probability when a specific defender's attention is masked. Positive DI indicates the defender reduces the attacker's chance to receive the ball.  
+      Right — Defensive Performance (DP): the DI values aggregated and weighted by each attacker's xT (attacking threat). DP quantifies a defender's overall off‑ball positional value in reducing dangerous reception opportunities.</em>
+    </td>
+  </tr>
+</table>
 
 ## Potential Use cases 
 - Post‑match tactical analysis: Visualise event‑by‑event DI/DP to identify moments where defender positioning prevented high‑threat receptions.
@@ -65,9 +73,9 @@ The architecture of the Graph Attention Network model is provided in the image b
 - Optimiser: Adam, initial LR = 0.003.
 - Dataset used: 306 EPL matches (2023/24) → ~359,040 on‑ball events.
 
-## Directory Structure
-
 ## Code Workflow
+
+- Begin by converting the raw tracking data into dataframes for the ball, players and events. Code to complete these tasks is in convert_tracking.py. Store these dataframes 
 
 ## Data
 
