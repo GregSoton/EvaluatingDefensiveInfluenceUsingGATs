@@ -18,7 +18,7 @@ import math
 # =============================================================================
 
 # Set working directory
-os.chdir('PFF_2023-24_Data')
+os.chdir('Data')
 rosters = pd.read_csv('rosters_updated.csv')
 
 # Create positions dictionary for one-hot encoding

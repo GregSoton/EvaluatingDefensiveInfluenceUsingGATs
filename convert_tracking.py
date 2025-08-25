@@ -24,7 +24,7 @@ import os
 # =============================================================================
 
 # Set working directory and load reference data
-os.chdir('PFF_2023-24_Data')
+os.chdir('Data')
 rosters = pd.read_csv('rosters_updated.csv')
 metadata = pd.read_csv('metadata_updated.csv')
 

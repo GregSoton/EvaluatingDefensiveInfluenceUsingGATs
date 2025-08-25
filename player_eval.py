@@ -597,7 +597,7 @@ def main(match_id: int):
     """
     try:
         # Set working directory and load global data
-        os.chdir('PFF_2023-24_Data')
+        os.chdir('Data')
         global xT_grid
         xT_grid = pd.read_csv('xT_grid.csv', header=None)
         
