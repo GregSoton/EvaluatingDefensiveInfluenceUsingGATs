@@ -8,8 +8,18 @@ Evaluating individual contributions from team members is a critical challenge ac
 
 ## Model Outputs
 
-<img width="922" height="620" alt="Reception_Prediction" src="https://github.com/user-attachments/assets/bb35bae7-c76c-467a-86f7-18816c9060cd" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bb35bae7-c76c-467a-86f7-18816c9060cd" alt="Reception_Prediction" width="600" />
+</p>
 
-<img width="851" height="555" alt="DI" src="https://github.com/user-attachments/assets/b52efd80-d383-41fd-b6ac-a4e5664f9d99" />
-<img width="1181" height="799" alt="DP" src="https://github.com/user-attachments/assets/cd54f579-bfe9-4677-befe-a8fbd5a5afa7" />
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/b52efd80-d383-41fd-b6ac-a4e5664f9d99" alt="DI" width="420" />
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/cd54f579-bfe9-4677-befe-a8fbd5a5afa7" alt="DP" width="420" />
+    </td>
+  </tr>
+</table>
 
