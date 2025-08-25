@@ -54,7 +54,7 @@ The architecture of the Graph Attention Network model is provided in the image b
 
 #### Model Details
 - Graph construction: fully connected, directed graph with a special ball node (V = players ∪ {ball}).
-- Node features: position, velocity, acceleration, distances to goals, distance/angle to ball, team/attacking/on‑ball flags.
+- Node features: position, velocity, acceleration, distances to goals, distance/angle to ball, on-attacking-team/on‑ball flags.
 - Edge features: relative distances, edge angle, difference in node angles to the ball, same‑team flag.
 - GAT specifics: 2 GAT layers, 16 attention heads, skip connection + concatenation to encoders.
 
